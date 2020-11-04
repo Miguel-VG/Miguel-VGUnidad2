@@ -40,7 +40,7 @@ $Horoscopos = array(
 <body>
 
 
-<h1>Actividad</h1>
+<h1>Practica 5</h1>
 <?php
 $meses = array('enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre');
 $horoscopo = ['Aries', 'Tauro', 'Géminis', 'Cáncer', 'Leo', 'Virgo', 'Libra', 'Escorpio', 'Sagitario', 'Capricornio','Acuario','Piscis'];
