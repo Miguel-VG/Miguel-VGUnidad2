@@ -9,7 +9,7 @@ $conectar = mysqli_connect("localhost","root","","alumnos") or die ("No se pudo 
 
 //Recuperar los datos
 
-//fatos(Tipo text)
+//datos(Tipo text)
 $nombre = $_POST['nombre'];
 $usuario = $_POST['usuario'];
 $password = $_POST['password'];
