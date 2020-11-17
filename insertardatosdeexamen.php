@@ -124,9 +124,9 @@ else if($_POST['horas'] == "14-15"){
     $hora = "14:00 - 15:00";
 }
 
-mysqli_query($conectar,"insert into miguel (clavedelmaestro, nombre, apellidopat, apellidomat, domicilio, colonia, codigopostal, telefono, correo, curp, profesion,  materia, grado, grupo, horaclase)
+mysqli_query($conectar,"insert into miguel (ID,clavedelmaestro, nombre, apellidopat, apellidomat, domicilio, colonia, codigopostal, telefono, correo, curp, profesion,  materia, grado, grupo, horaclase)
 values
-('null', '$nombre','$apellidopat','$apellidomat','$domicilio','$colonia','$codigopost', '$telefono', '$correo', '$curp', '$profesion', '$materia', '$grado', '$grupo', '$hora' )")
+('null', '$clavemaestro', '$nombre','$apellidopat','$apellidomat','$domicilio','$colonia','$codigopost', '$telefono', '$correo', '$curp', '$profesion', '$materia', '$grado', '$grupo', '$hora' )")
  or die("Problemas para hacer el INSERT" . mysqli_error($conectar));
 
 //Cerramos conexion a la base de datos
